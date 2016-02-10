@@ -2,76 +2,10 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19102",
 "files": {
-	"\/_images\/bg_direction_nav.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1866,
-		"inputAbbreviatedPath": "\/_images\/bg_direction_nav.png",
-		"outputAbbreviatedPath": "\/_images\/bg_direction_nav.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_images\/chosen-sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 646,
-		"inputAbbreviatedPath": "\/_images\/chosen-sprite.png",
-		"outputAbbreviatedPath": "\/_images\/chosen-sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_images\/chosen-sprite@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 872,
-		"inputAbbreviatedPath": "\/_images\/chosen-sprite@2x.png",
-		"outputAbbreviatedPath": "\/_images\/chosen-sprite@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_images\/fancybox_overlay.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1003,
-		"inputAbbreviatedPath": "\/_images\/fancybox_overlay.png",
-		"outputAbbreviatedPath": "\/_images\/fancybox_overlay.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_images\/fancybox_sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1362,
-		"inputAbbreviatedPath": "\/_images\/fancybox_sprite.png",
-		"outputAbbreviatedPath": "\/_images\/fancybox_sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_images\/fancybox_sprite@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6553,
-		"inputAbbreviatedPath": "\/_images\/fancybox_sprite@2x.png",
-		"outputAbbreviatedPath": "\/_images\/fancybox_sprite@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_includes\/footer.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/footer.jade",
 		"outputAbbreviatedPath": "\/_includes\/footer.html",
@@ -79,19 +13,10 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/_includes\/footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/footer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_includes\/head.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/head.jade",
 		"outputAbbreviatedPath": "\/_includes\/head.html",
@@ -99,58 +24,16 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/_includes\/navigation.php": {
-		"fileType": 8192,
-		"ignore": 0,
+	"\/_includes\/navigation.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/navigation.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_scripts\/js\/chosen.jquery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_scripts\/js\/chosen.jquery.min.js",
-		"outputAbbreviatedPath": "\/_scripts\/js\/min\/chosen.jquery.min-min.js",
+		"inputAbbreviatedPath": "\/_includes\/navigation.jade",
+		"outputAbbreviatedPath": "\/_includes\/navigation.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_scripts\/js\/fancybox.jquery.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_scripts\/js\/fancybox.jquery.js",
-		"outputAbbreviatedPath": "\/_scripts\/js\/min\/fancybox.jquery-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_scripts\/js\/flexslider.jquery.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_scripts\/js\/flexslider.jquery.js",
-		"outputAbbreviatedPath": "\/_scripts\/js\/min\/flexslider.jquery-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_scripts\/js\/isotope.jquery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_scripts\/js\/isotope.jquery.min.js",
-		"outputAbbreviatedPath": "\/_scripts\/js\/min\/isotope.jquery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0
 		},
 	"\/_scripts\/js\/main.js": {
 		"fileType": 64,
@@ -158,6 +41,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/js\/main.js",
 		"outputAbbreviatedPath": "\/_scripts\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_scripts\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_scripts\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_scripts\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -339,6 +233,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.jade",
 		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/layout.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/layout.jade",
+		"outputAbbreviatedPath": "\/layout.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0

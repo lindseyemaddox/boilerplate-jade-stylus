@@ -18,20 +18,19 @@ gradient (origin, start, stop)
   background-image -ms-linear-gradient(origin, start, stop)
   background-image linear-gradient(origin, start, stop)
 
-//ask kevin about this one
 // ie9
-//   gradient (iestart, iestop)
-//     filter progid:DXImageTransform.Microsoft.gradient( startColorstr=iestart, endColorstr=iestop,GradientType=0 )
-
-opacity (opacity)
-  -webkit-opacity opacity
-  -moz-opacity opacity
-  opacity opacity
+//   gradient (iestart, iestop) {
+//         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=iestart, endColorstr=iestop,GradientType=0 )
 
 // drop-shadow (inset, x, y, blur, spread, alpha)
 //   -webkit-box-shadow inset x y blur spread rgba(0, 0, 0, alpha)
 //   -moz-box-shadow inset x y blur spread rgba(0, 0, 0, alpha)
 //   box-shadow inset x y blur spread rgba(0, 0, 0, alpha)
+
+opacity (opacity)
+  -webkit-opacity opacity
+  -moz-opacity opacity
+  opacity opacity
 
 animation (name, duration, delay, ease)
   -webkit-animation name duration delay ease
