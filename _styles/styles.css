@@ -288,14 +288,7 @@ h1 {
 footer {
   margin: 0 auto;
 }
-#accounts-edit #timezone-blue {
-  color: #0d89bf;
-  font-size: 10pt;
-}
-#accounts-edit .api-key {
-  margin-bottom: 0;
-}
-#accounts-edit .api-docs {
+#id .class {
   margin-left: 5px;
 }
 @media screen and (max-width: 1200px) {
