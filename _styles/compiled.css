@@ -85,12 +85,12 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
--webkit-box-sizing: border-box,
--moz-box-sizing: border-box,
-box-sizing: border-box,
--moz-background-clip: padding-box !important,
--webkit-background-clip: padding-box !important,
-background-clip: padding-box !important,
+-webkit-box-sizing border-box,
+-moz-box-sizing border-box,
+box-sizing border-box,
+-moz-background-clip padding-box !important,
+-webkit-background-clip padding-box !important,
+background-clip padding-box !important,
 a {
   background: transparent;
   outline: none;
@@ -181,8 +181,13 @@ textarea {
   vertical-align: top;
   resize: vertical;
 }
-svg:not(:root) {
+svg:not(root) {
   overflow: hidden;
+}
+.clear:after {
+  display: block;
+  content: "";
+  clear: both;
 }
 .light {
   font-family: 'Roboto', sans-serif;
@@ -199,6 +204,11 @@ svg:not(:root) {
 .black {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
+}
+border-radius (n) {
+  -webkit-border-radius: n;
+  -moz-border-radius: n;
+  border-radius: n;
 }
 transition (prop,
 time,
@@ -219,6 +229,16 @@ stop) {
   background-image: -ms-linear-gradient(origin, start, stop);
   background-image: linear-gradient(origin, start, stop);
 }
+drop-shadow (inset,
+x,
+y,
+blur,
+spread,
+alpha) {
+  -webkit-box-shadow: inset x y blur spread alpha;
+  -moz-box-shadow: inset x y blur spread alpha;
+  box-shadow: inset x y blur spread alpha;
+}
 opacity (opacity) {
   -webkit-opacity: opacity;
   -moz-opacity: opacity;
@@ -231,6 +251,12 @@ ease) {
   -webkit-animation: name duration delay ease;
   -moz-animation: name duration delay ease;
   -ms-animation: name duration delay ease;
+}
+transform (string) {
+  -webkit-transform: string;
+  -moz-transform: string;
+  -ms-transform: string;
+  -o-transform: string;
 }
 scale (factor) {
   -webkit-transform: scale(factor);
@@ -290,6 +316,30 @@ footer {
 }
 #id .class {
   margin-left: 5px;
+}
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  display: table-row;
+  height: 100%;
+}
+aside {
+  display: table-cell;
+  min-width: 340px;
+  width: 340px;
+  background-color: #ffc0cb;
+}
+section {
+  display: table-cell;
+  width: 100%;
+  background-color: #008000;
+}
+.grid {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1200px) {
   html {
