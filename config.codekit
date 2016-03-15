@@ -35,23 +35,23 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/_scripts\/js\/main.js": {
+	"\/_scripts\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_scripts\/js\/main.js",
-		"outputAbbreviatedPath": "\/_scripts\/js\/min\/main-min.js",
+		"inputAbbreviatedPath": "\/_scripts\/main.js",
+		"outputAbbreviatedPath": "\/_scripts\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_scripts\/js\/min\/main-min.js": {
+	"\/_scripts\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_scripts\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/_scripts\/js\/min\/min\/main-min-min.js",
+		"inputAbbreviatedPath": "\/_scripts\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_scripts\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
